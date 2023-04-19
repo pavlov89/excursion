@@ -13,6 +13,25 @@ header {
     margin-bottom: 1em;
 }
 
+header ul {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header li {
+    margin-left: 1rem;
+}
+
+header li {
+list-style: none;
+}
+
+header li a {
+    text-decoration: none;
+}
+
 h1 {
     font-family: Verdana;
     font-size: 50px;
